@@ -87,6 +87,7 @@ Traffic is redistributed across remaining instances
 Scaling is triggered using metrics from Amazon CloudWatch:
 
 CPU > 70% → Scale Out
+
 CPU < 30% → Scale In
 
 New instances are automatically registered with the Load Balancer.
